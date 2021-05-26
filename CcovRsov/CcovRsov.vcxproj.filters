@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utilities\CRC.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Queue.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Rsov\RsovCtrl.cpp">
+      <Filter>Rsov</Filter>
+    </ClCompile>
+    <ClCompile Include="Rsov\RsovFileCtrl.cpp">
+      <Filter>Rsov</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccov\CcovCtrl.cpp">
+      <Filter>Ccov</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\RSSP2\RSSP2.cpp">
+      <Filter>Protocol\RSSP2</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConfig.cpp" />
+    <ClCompile Include="Ccov\SNMP\CcovSnmpMdl.cpp">
+      <Filter>Ccov\SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccov\SNMP\CcovSnmpPack.cpp">
+      <Filter>Ccov\SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccov\SNMP\CcovSnmpUnpack.cpp">
+      <Filter>Ccov\SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccov\HLHT\HlhtPlugin.cpp">
+      <Filter>Ccov\HLHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccov\CcovHandler.cpp">
+      <Filter>Ccov</Filter>
+    </ClCompile>
+    <ClCompile Include="Rsov\RsovHandler.cpp">
+      <Filter>Rsov</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\FFFE\FFFE.cpp">
+      <Filter>Protocol\FFFE</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver\COM20020\COM20020.cpp">
+      <Filter>Driver\COM20020</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver\LED\Led.cpp">
+      <Filter>Driver\LED</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\NetWork\NetWork.cpp">
+      <Filter>Utilities\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\NetWork\SerialCom.cpp">
+      <Filter>Utilities\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\NetWork\Ping.cpp">
+      <Filter>Utilities\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\FileWork.cpp">
+      <Filter>Utilities\FileWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\IniFileWork.cpp">
+      <Filter>Utilities\FileWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\LogFileWork.cpp">
+      <Filter>Utilities\FileWork</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_cbtc_common\dquCbtcConfigData.c">
+      <Filter>DQU\dqu_cbtc_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_dfs_common\dfsDataRead.c">
+      <Filter>DQU\dqu_dfs_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_dfs_common\dquCbtcType.c">
+      <Filter>DQU\dqu_dfs_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_emap_common\dquEmapInit.c">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_emap_common\dquQuery.c">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_emap_common\dquQueryExp.c">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_emap_common\dquStructInit.c">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_emap_common\dsuVar.c">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_idmap_common\dquIdmapInit.c">
+      <Filter>DQU\dqu_idmap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_idmap_common\dquIdmapQuery.c">
+      <Filter>DQU\dqu_idmap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_idmap_common\dsuIdmapVar.c">
+      <Filter>DQU\dqu_idmap_common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\common\CbtcVersion.c">
+      <Filter>DQU\common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\common\CommonMemory.c">
+      <Filter>DQU\common</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\common\Convert.c">
+      <Filter>DQU\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Convert\ConvertWork.cpp">
+      <Filter>Utilities\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_ccov_atp_vobc_cbtc\dquDataSize.c">
+      <Filter>DQU\dqu_ccov_atp_vobc_cbtc</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_ccov_atp_vobc_cbtc\dsuCcovFunc.c">
+      <Filter>DQU\dqu_ccov_atp_vobc_cbtc</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\dqu_rsspii_cbtc\dsuRssp2Func.c">
+      <Filter>DQU\dqu_rsspii_cbtc</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\commoncode_vobc_cbtc\vSfpInnetDataVar.c">
+      <Filter>DQU\commoncode_vobc_cbtc</Filter>
+    </ClCompile>
+    <ClCompile Include="DQU\DataLoad.cpp">
+      <Filter>DQU</Filter>
+    </ClCompile>
+    <ClCompile Include="Rsov\USBPlugin\USBCtrl.cpp">
+      <Filter>Rsov\USBPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\ZipWork.cpp">
+      <Filter>Utilities\FileWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\adler32.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\compress.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\crc32.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\deflate.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\gzclose.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\gzlib.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\gzread.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\gzwrite.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\infback.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\inffast.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\inflate.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\inftrees.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\trees.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\uncompr.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FileWork\zlib\zutil.c">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Rsov">
+      <UniqueIdentifier>{2e0abddf-2b8e-4197-a7aa-f9a394855f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU">
+      <UniqueIdentifier>{f23266de-93d6-4883-8173-1e4fc7ff1f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{7d225417-f505-4d15-b5c6-d2eee4f8321b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{876a59f7-d9f3-4901-a3b9-51249e29d3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\LED">
+      <UniqueIdentifier>{96c33ab2-9d56-4d4e-80ef-92c33ca4fe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\COM20020">
+      <UniqueIdentifier>{d34dc2e0-06c4-4ab9-9c3c-438c4993d84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ccov">
+      <UniqueIdentifier>{b9788ccd-d59f-4456-a86d-91a6750788bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{87e1c035-2943-40ce-ad2f-3ad2e6aaeb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol\RSSP2">
+      <UniqueIdentifier>{dff60428-2b98-4e65-be0f-cce456f6fa1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ccov\HLHT">
+      <UniqueIdentifier>{51bb2571-6455-4f47-b406-8dadfb3cb5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ccov\SNMP">
+      <UniqueIdentifier>{37a251df-12a9-4d30-9a67-5a5f64438168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ccov\WGB">
+      <UniqueIdentifier>{f74c56c9-4737-450a-85f6-ed6cfa4043f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol\FFFE">
+      <UniqueIdentifier>{26336eaf-1235-4f9e-80da-45a3829051b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\NetWork">
+      <UniqueIdentifier>{1a2e0345-c50c-4765-a357-fbab29a71124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Convert">
+      <UniqueIdentifier>{971bd773-31ea-4074-b364-43ffa879dc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Queue">
+      <UniqueIdentifier>{e2bc0d70-12ae-4587-80de-61cff035fc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\FileWork">
+      <UniqueIdentifier>{8a7b1b41-9563-47d0-8309-eda680443ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\dqu_cbtc_common">
+      <UniqueIdentifier>{f08b69c4-681b-4f75-93ff-e0f67c199eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\dqu_dfs_common">
+      <UniqueIdentifier>{4323b609-77a0-4898-a5e5-afe782765cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\dqu_emap_common">
+      <UniqueIdentifier>{e83fdd40-1721-49a1-a624-b4d1b63f23b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\dqu_idmap_common">
+      <UniqueIdentifier>{e1b311c5-542f-4f57-b99b-d728405be7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\common">
+      <UniqueIdentifier>{53717e93-1a41-481b-a6e2-8ba300a08760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\dqu_ccov_atp_vobc_cbtc">
+      <UniqueIdentifier>{d3ccf8ff-aa20-450b-9c81-f4787f697a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\dqu_rsspii_cbtc">
+      <UniqueIdentifier>{de0e6b51-20ca-4150-a3d2-375020f61b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DQU\commoncode_vobc_cbtc">
+      <UniqueIdentifier>{4e380048-c03e-4df4-99d2-beb5b8d9abf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rsov\USBPlugin">
+      <UniqueIdentifier>{909e2157-f80c-497a-b2cf-e9d2503e8c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\FileWork\zlib">
+      <UniqueIdentifier>{7583bbec-187b-4b55-9c40-eb8f79315182}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utilities\CRC.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Queue.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\TimerCtrl.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Rsov\RsovConfig.h">
+      <Filter>Rsov</Filter>
+    </ClInclude>
+    <ClInclude Include="Rsov\RsovCtrl.h">
+      <Filter>Rsov</Filter>
+    </ClInclude>
+    <ClInclude Include="Rsov\RsovDefine.h">
+      <Filter>Rsov</Filter>
+    </ClInclude>
+    <ClInclude Include="Rsov\RsovFileCtrl.h">
+      <Filter>Rsov</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDefine.h" />
+    <ClInclude Include="Ccov\CcovConfig.h">
+      <Filter>Ccov</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\CcovCtrl.h">
+      <Filter>Ccov</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\CcovDefine.h">
+      <Filter>Ccov</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\RSSP2\RSSP2.h">
+      <Filter>Protocol\RSSP2</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\RSSP2\RSSP2Define.h">
+      <Filter>Protocol\RSSP2</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfig.h" />
+    <ClInclude Include="Ccov\SNMP\CcovSnmpMdl.h">
+      <Filter>Ccov\SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\SNMP\CcovSnmpPack.h">
+      <Filter>Ccov\SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\SNMP\CcovSnmpUnpack.h">
+      <Filter>Ccov\SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\SNMP\CcovSnmpConfig.h">
+      <Filter>Ccov\SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\WGB\WgbPlugin.h">
+      <Filter>Ccov\WGB</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\HLHT\HlhtPlugin.h">
+      <Filter>Ccov\HLHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\HLHT\HlhtConfig.h">
+      <Filter>Ccov\HLHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccov\CcovHandler.h">
+      <Filter>Ccov</Filter>
+    </ClInclude>
+    <ClInclude Include="Rsov\RsovHandler.h">
+      <Filter>Rsov</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\FFFE\FFFE.h">
+      <Filter>Protocol\FFFE</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\COM20020\COM20020.h">
+      <Filter>Driver\COM20020</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\COM20020\COM20020Define.h">
+      <Filter>Driver\COM20020</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\LED\Led.h">
+      <Filter>Driver\LED</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\NetWork\NetWork.h">
+      <Filter>Utilities\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\NetWork\SerialCom.h">
+      <Filter>Utilities\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\NetWork\Ping.h">
+      <Filter>Utilities\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\FileWork.h">
+      <Filter>Utilities\FileWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\IniFileWork.h">
+      <Filter>Utilities\FileWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\LogFileWork.h">
+      <Filter>Utilities\FileWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\Mutex.h">
+      <Filter>Utilities\FileWork</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_cbtc_common\dquCbtcConfigData.h">
+      <Filter>DQU\dqu_cbtc_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_dfs_common\dfsDataRead.h">
+      <Filter>DQU\dqu_dfs_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_dfs_common\dquCbtcType.h">
+      <Filter>DQU\dqu_dfs_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_dfs_common\dquDataTypeDefine.h">
+      <Filter>DQU\dqu_dfs_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dquEmapInit.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dquQuery.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dquQueryExp.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dquStructInit.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dquVobcCommonStru.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dsuEmapDefine.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dsuStruct.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_emap_common\dsuVar.h">
+      <Filter>DQU\dqu_emap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_idmap_common\dquIdmapInit.h">
+      <Filter>DQU\dqu_idmap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_idmap_common\dquIdmapQuery.h">
+      <Filter>DQU\dqu_idmap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_idmap_common\dsuIdmapStruct.h">
+      <Filter>DQU\dqu_idmap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_idmap_common\dsuIdmapVar.h">
+      <Filter>DQU\dqu_idmap_common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\common\CbtcVersion.h">
+      <Filter>DQU\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\common\CommonConfig.h">
+      <Filter>DQU\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\common\CommonMemory.h">
+      <Filter>DQU\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\common\CommonTypes.h">
+      <Filter>DQU\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\common\Convert.h">
+      <Filter>DQU\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Convert\ConvertWork.h">
+      <Filter>Utilities\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_ccov_atp_vobc_cbtc\dquDataSize.h">
+      <Filter>DQU\dqu_ccov_atp_vobc_cbtc</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_ccov_atp_vobc_cbtc\dsuCcovFunc.h">
+      <Filter>DQU\dqu_ccov_atp_vobc_cbtc</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_rsspii_cbtc\dsuRssp2DataStru.h">
+      <Filter>DQU\dqu_rsspii_cbtc</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\dqu_rsspii_cbtc\dsuRssp2Func.h">
+      <Filter>DQU\dqu_rsspii_cbtc</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\commoncode_vobc_cbtc\vobcInternalTelegramDef.h">
+      <Filter>DQU\commoncode_vobc_cbtc</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\commoncode_vobc_cbtc\vSfpInnetDataVar.h">
+      <Filter>DQU\commoncode_vobc_cbtc</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\IntegrationConfig.h">
+      <Filter>DQU</Filter>
+    </ClInclude>
+    <ClInclude Include="DQU\DataLoad.h">
+      <Filter>DQU</Filter>
+    </ClInclude>
+    <ClInclude Include="Rsov\USBPlugin\USBCtrl.h">
+      <Filter>Rsov\USBPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\ZipWork.h">
+      <Filter>Utilities\FileWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\crc32.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\deflate.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\gzguts.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\inffast.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\inffixed.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\inflate.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\inftrees.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\trees.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\zconf.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\zlib.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FileWork\zlib\zutil.h">
+      <Filter>Utilities\FileWork\zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

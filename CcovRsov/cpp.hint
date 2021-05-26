@@ -1,0 +1,8 @@
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define IMPLEMENT_LOG_FUNC(cname, fname, lv) IMPLEMENT_LOG_FUNC1(cname,fname,lv) IMPLEMENT_LOG_FUNC2(cname,fname,lv)
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define ABSTRACT_LOG_FUNC(name) virtual void name(string msg) = 0; virtual void name(const char* fmt,...) = 0;
